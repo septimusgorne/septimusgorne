@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @septimusgorne
 - 👀 I’m interested in CCNA(P), Linux/Windows administration, Python, C#, ASP.NET, MVC, Docker, Unity
 - 🌱 I’m currently learning AI, Machine Learning(ML & DL), Python, C#, Unity
+- 💞️ I will participate in OpenSource projects
 - 📫 How to reach me thebestlakshmi@gmail.com
 
 <!---
