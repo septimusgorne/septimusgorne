@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @septimusgorne
-- 👀 I’m interested in CCNA(P), Linux/Windows administration, Python, C#, ASP.NET, MVC, Docker, Unity, SQL
+- 👋 Hi, I’m @septimusgorne DevOps at Lab_Kaspersky
+- 👀 I’m interested in CCNA(P), Linux/Windows administration, DevOps, Python, C#, ASP.NET, MVC, Docker, Unity, SQL
 - 🌱 I’m currently learning AI, Machine Learning(ML & DL), Python, C#, Unity, SQL
 - 💞️ I will participate in OpenSource projects
 - 📫 How to reach me thebestlakshmi@gmail.com
