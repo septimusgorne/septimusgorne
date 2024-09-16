@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @septimusgorne DevOps at Lab_Kaspersky
+- 👋 Hi, I’m @septimusgorne DevOps at Kaspersky_Lab
 - 👀 I’m interested in CCNA(P), Linux/Windows administration, DevOps, Python, C#, ASP.NET, MVC, Docker, Unity, SQL, Ansible e.t.c
 - 🌱 I’m currently learning AI, Machine Learning(ML & DL), Python, C#, Unity, SQL
 - 💞️ I will participate in OpenSource projects
