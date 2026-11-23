@@ -4,7 +4,7 @@
 
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
-  <b>Middle DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow) · ~3.5 years on <b>KasperskyOS</b> infrastructure & pipelines<br>
+  <b>DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow) · ~3.5 years on <b>KasperskyOS</b> infrastructure & pipelines<br>
   Ex-network engineer · Ex-3rd line support @ Ozon · Ex-factory automation engineer (CNC → automation)
 </p>
 
