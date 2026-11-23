@@ -1,61 +1,43 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
 </p>
 
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
-  <b>DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow) · ~at <b>KasperskyOS</b> infrastructure & pipelines<br>
-  Ex-network engineer · Ex-3rd line support @ Ozon · Ex-factory automation engineer (CNC → automation)
+  <b>Middle DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow)<br>
+  KasperskyOS infrastructure · CI/CD · Observability · Automation
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-animation.svg" alt="🚀 Spaceship Animation" width="100%" />
-</p>
-
-<p align="center">
-  <em>🚀 Космический корабль обновляется автоматически каждые 6 часов через GitHub Actions</em>
+  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-dynamic.svg" alt="🚀 Spaceship Animation" width="100%" />
 </p>
 
 ---
 
 ## 🧭 About Me
 
-I build reliable, observable infrastructure and automate complex systems. My background spans from **special communications troops** in the army and warehouse/logistics work, through **CNC machine operation and factory automation engineering**, to **network engineering** and now **DevOps** at Kaspersky Lab.
+I build reliable, observable infrastructure and automate complex systems. My background spans from **special communications troops** in the army and **CNC machine operation** in factory automation, to **network engineering** and now **DevOps** at Kaspersky Lab.
 
-I work on **KasperskyOS** — a secure operating system written from scratch (not a Linux fork) — handling infrastructure, CI/CD pipelines, observability, and authentication. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
+I work on **KasperskyOS** — a secure operating system written from scratch — handling infrastructure, CI/CD pipelines, observability, and authentication. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
 
 ---
 
 ## 🛠 Tech Stack
 
-<table>
-  <tr>
-    <td><b>💻 Languages</td>
-    <td>Bash · Python · C# (Unity) · SQL</td>
-  </tr>
-  <tr>
-    <td><b>📦 Containers & K8s</td>
-    <td>Docker · Kubernetes · etcd · Helm</td>
-  </tr>
-  <tr>
-    <td><b>🔄 CI/CD</td>
-    <td>Pipeline design · Test stage splitting · Result-to-code matching</td>
-  </tr>
-  <tr>
-    <td><b>📊 Observability</td>
-    <td>Grafana · Loki · InfluxDB · OpenSearch · ELK · GlitchTip</td>
-  </tr>
-  <tr>
-    <td><b>🌐 Networking</td>
-    <td>MikroTik RouterOS · VLAN · BGP · BFD · iBGP · Tunneling · Proxying</td>
-  </tr>
-  <tr>
-    <td><b>🔧 Hardware</td>
-    <td>Arduino Mega · ESP32 · MPU-6050 · Flipper Zero · Orange Pi · Rock Pi</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,python,bash,cs,unity,dotnet,mysql,postgres,ansible,grafana,loki,influxdb,elasticsearch,nginx,mikrotik,git,ssh,arduino,esp32,raspberrypi" />
+</p>
+
+| Area | Technologies |
+|------|--------------|
+| **Languages & Scripting** | Bash, Python, C# (Unity), SQL |
+| **Containers & Orchestration** | Docker, Kubernetes, etcd |
+| **CI/CD & Testing** | Pipeline design, test automation |
+| **Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip |
+| **Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling |
+| **Hardware & Embedded** | Arduino Mega, ESP32, MPU-6050, Flipper Zero, Orange Pi, Rock Pi |
 
 ---
 
@@ -63,20 +45,22 @@ I work on **KasperskyOS** — a secure operating system written from scratch (no
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **CodeJump** | Custom code navigation service based on OpenGrok, deployed in Kubernetes with SAML auth and internal LLM integration | K8s, OpenGrok, SAML, Python |
-| **Self-hosted AI Infrastructure** | Open WebUI, LiteLLM, Ollama, Logging Proxy, Kilo Code in code-server, Mosquitto (MQTT), Sber Salute webhook, Home Assistant | Docker, AI/LLM, IoT |
-| **Hexapod Robot** | 18-servo walking hexapod on Arduino Mega 2560 with ESP32, MPU-6050 gyro, Sensor Shield 4.0; diagnostics via ZOYI ZT-703S; Flipper Zero (Xtreme) | Arduino, C++, Python, ESP32 |
-| **Bioengineering: Retina Modeling** | Tissue/organ modeling starting with the retina; differential geometry, Ricci flow, Gaussian smoothing, topological surgery | Python, SciPy, NumPy, Math |
-| **3D Printing & CAD** | Bambu Lab H2S (AMS 2 Pro, AMS HT), Bambu Studio, Meshmixer, Meshy AI; PLA/PETG; kinetic sand clocks with ferromagnetic fluid | CAD, 3D printing |
+| **CodeJump** | Code navigation service on Kubernetes with SAML auth and LLM integration | K8s, OpenGrok, SAML, Python |
+| **Self-hosted AI** | Open WebUI, LiteLLM, Ollama, Mosquitto MQTT, Home Assistant | Docker, AI/LLM, IoT |
+| **Hexapod Robot** | 18-servo walking robot on Arduino Mega 2560 with ESP32 bridge | Arduino, C++, Python, ESP32 |
+| **Bioengineering: Retina Modeling** | Tissue modeling with Ricci flow, differential geometry, OCT simulation | Python, SciPy, NumPy, Math |
+| **3D Printing** | Bambu Lab H2S + AMS, PLA/PETG, kinetic art | CAD, 3D printing |
+
+> 🔒 The source code for these projects is in **private repositories** — access only for the owner.
 
 ---
 
 ## 🔐 Auth & Security
 
-- **SAML** — единый вход для внутренних приложений и CodeJump (KasperskyOS инфраструктура)
-- **OAuth 2.0 / OIDC** — социальная и корпоративная авторизация (Google, GitHub)
-- **Ingress & Reverse-proxy auth** — аутентификация на входе в сервисы через Ingress-контроллер и обратный прокси
-- **WireGuard** — защищённый туннельный доступ к удалённым сегментам сети
+- **SAML** — SSO for internal applications (KasperskyOS)
+- **OAuth 2.0 / OIDC** — social & corporate auth (Google, GitHub)
+- **Ingress & Reverse-proxy auth** — service entry authentication
+- **WireGuard** — secure tunnel access to network segments
 
 ---
 
@@ -88,7 +72,7 @@ AI · Machine Learning (ML & DL) · Python · C# · Unity · SQL
 
 ## 🤝 Open To
 
-Open Source collaboration · DevOps / Platform / SRE discussions · Infrastructure automation · Complex engineering challenges
+Open Source · DevOps / Platform / SRE · Infrastructure automation · Complex engineering challenges
 
 ---
 
@@ -119,22 +103,6 @@ Open Source collaboration · DevOps / Platform / SRE discussions · Infrastructu
 
 <u>thebestlakshmi@gmail.com</u>  
 GitHub: [@septimusgorne](https://github.com/septimusgorne)
-
----
-
-<details>
-<summary>🔍 Full background (expand)</summary>
-
-- **DevOps Engineer** — Kaspersky Lab, Moscow (~3.5 years): KasperskyOS infrastructure, CI/CD pipelines, observability, SAML auth
-- **Network engineer** (~9 months): MikroTik RouterOS, VLAN, BGP/BFD/iBGP, tunneling, proxying
-- **3rd line support** — Ozon
-- **Factory automation** — CNC operator → automation engineer
-- **Early career** — warehouse/loader, sales, construction, special communications troops (army)
-- **Hardware**: Rock Pi, Orange Pi 3B, Intel Xeon E5-2699 (X99, 32 GB DDR4, RTX 3070)
-- **3D printing**: Bambu Lab H2S, Bambu Studio, Meshmixer, Meshy AI, PLA/PETG
-- **Robotics**: Hexapod on Arduino Mega 2560, ESP32, MPU-6050, Arduino Leonardo, Flipper Zero (Xtreme)
-- **Bioengineering**: Retina/tissue modeling, Ricci flow, differential geometry, topological surgery
-</details>
 
 ---
 
