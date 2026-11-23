@@ -2,93 +2,79 @@
 <svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes shipFly {
-      0%   { transform: translateX(0px); }
-      50%  { transform: translateX(880px); }
-      100% { transform: translateX(0px); }
+      0%   { transform: translateX(-150px); }
+      100% { transform: translateX(1000px); }
     }
     @keyframes rainbowShift {
-      0%   { transform: translateX(0px); }
-      50%  { transform: translateX(880px); }
-      100% { transform: translateX(0px); }
+      0%   { transform: translateX(-200px); }
+      100% { transform: translateX(750px); }
     }
-    .ship { animation: shipFly 8s linear infinite; }
-    .rainbow { animation: rainbowShift 8s linear infinite; }
+    .ship { animation: shipFly 10s linear infinite; }
+    .rainbow { animation: rainbowShift 10s linear infinite; }
   </style>
   
   <!-- Space background -->
   <rect width="1000" height="220" fill="#050510"/>
   
   <!-- Stars -->
-  <circle cx="50" cy="30" r="2" fill="white" opacity="0.9"/>
-  <circle cx="150" cy="80" r="1" fill="white" opacity="0.7"/>
-  <circle cx="250" cy="40" r="1.5" fill="white" opacity="0.8"/>
-  <circle cx="350" cy="120" r="1" fill="white" opacity="0.6"/>
-  <circle cx="450" cy="60" r="2" fill="white" opacity="0.9"/>
-  <circle cx="550" cy="150" r="1" fill="white" opacity="0.5"/>
-  <circle cx="650" cy="40" r="1.5" fill="white" opacity="0.8"/>
-  <circle cx="750" cy="100" r="1" fill="white" opacity="0.6"/>
-  <circle cx="850" cy="160" r="2" fill="white" opacity="0.9"/>
-  <circle cx="950" cy="50" r="1.5" fill="white" opacity="0.7"/>
-  <circle cx="300" cy="180" r="1" fill="#00f2fe" opacity="0.5"/>
-  <circle cx="700" cy="30" r="1.5" fill="#00f2fe" opacity="0.6"/>
-  <circle cx="100" cy="150" r="1" fill="#ff9ff3" opacity="0.5"/>
-  <circle cx="800" cy="190" r="1" fill="#ff9ff3" opacity="0.4"/>
+  <circle cx="60" cy="30" r="2" fill="white" opacity="0.9"/>
+  <circle cx="140" cy="90" r="1" fill="white" opacity="0.6"/>
+  <circle cx="220" cy="50" r="2" fill="white" opacity="0.9"/>
+  <circle cx="320" cy="130" r="1" fill="white" opacity="0.7"/>
+  <circle cx="420" cy="70" r="1" fill="white" opacity="0.5"/>
+  <circle cx="520" cy="150" r="2" fill="white" opacity="0.8"/>
+  <circle cx="620" cy="50" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="720" cy="110" r="1" fill="white" opacity="0.4"/>
+  <circle cx="820" cy="170" r="2" fill="white" opacity="0.9"/>
+  <circle cx="920" cy="60" r="1.5" fill="white" opacity="0.7"/>
   
   <!-- Planet -->
   <circle cx="880" cy="60" r="30" fill="#ff9ff3" opacity="0.9"/>
-  <circle cx="875" cy="55" r="5" fill="white" opacity="0.4"/>
   
-  <!-- Rainbow trail (moves with ship) -->
+  <!-- Moon -->
+  <circle cx="940" cy="50" r="12" fill="#dfe6e9" opacity="0.9"/>
+  
+  <!-- Rainbow trail -->
   <g class="rainbow">
-    <!-- Rainbow stripes - pixel style -->
-    <rect x="0"   y="95" width="40" height="8" fill="#ff0000" opacity="0.8"/>
-    <rect x="40"  y="95" width="40" height="8" fill="#ff7f00" opacity="0.8"/>
-    <rect x="80"  y="95" width="40" height="8" fill="#ffff00" opacity="0.8"/>
-    <rect x="120" y="95" width="40" height="8" fill="#00ff00" opacity="0.8"/>
-    <rect x="160" y="95" width="40" height="8" fill="#0000ff" opacity="0.8"/>
-    <rect x="200" y="95" width="40" height="8" fill="#4b0082" opacity="0.8"/>
-    <rect x="240" y="95" width="40" height="8" fill="#9400d3" opacity="0.8"/>
-    <!-- Second row -->
-    <rect x="0"   y="103" width="40" height="8" fill="#ff7f00" opacity="0.6"/>
-    <rect x="40"  y="103" width="40" height="8" fill="#ffff00" opacity="0.6"/>
-    <rect x="80"  y="103" width="40" height="8" fill="#00ff00" opacity="0.6"/>
-    <rect x="120" y="103" width="40" height="8" fill="#0000ff" opacity="0.6"/>
-    <rect x="160" y="103" width="40" height="8" fill="#4b0082" opacity="0.6"/>
-    <rect x="200" y="103" width="40" height="8" fill="#9400d3" opacity="0.6"/>
-    <rect x="240" y="103" width="40" height="8" fill="#ff0000" opacity="0.6"/>
-    <!-- Third row -->
-    <rect x="0"   y="111" width="40" height="8" fill="#ffff00" opacity="0.4"/>
-    <rect x="40"  y="111" width="40" height="8" fill="#00ff00" opacity="0.4"/>
-    <rect x="80"  y="111" width="40" height="8" fill="#0000ff" opacity="0.4"/>
-    <rect x="120" y="111" width="40" height="8" fill="#4b0082" opacity="0.4"/>
-    <rect x="160" y="111" width="40" height="8" fill="#9400d3" opacity="0.4"/>
-    <rect x="200" y="111" width="40" height="8" fill="#ff0000" opacity="0.4"/>
-    <rect x="240" y="111" width="40" height="8" fill="#ff7f00" opacity="0.4"/>
+    <rect x="-200" y="90" width="40" height="8" fill="#ff0000" opacity="0.9"/>
+    <rect x="-160" y="90" width="40" height="8" fill="#ff7f00" opacity="0.9"/>
+    <rect x="-120" y="90" width="40" height="8" fill="#ffff00" opacity="0.9"/>
+    <rect x="-80" y="90" width="40" height="8" fill="#00ff00" opacity="0.9"/>
+    <rect x="-40" y="90" width="40" height="8" fill="#0000ff" opacity="0.9"/>
+    <rect x="0" y="90" width="40" height="8" fill="#4b0082" opacity="0.9"/>
+    <rect x="40" y="90" width="40" height="8" fill="#9400d3" opacity="0.9"/>
+    <rect x="-200" y="98" width="40" height="8" fill="#ff7f00" opacity="0.7"/>
+    <rect x="-160" y="98" width="40" height="8" fill="#ffff00" opacity="0.7"/>
+    <rect x="-120" y="98" width="40" height="8" fill="#00ff00" opacity="0.7"/>
+    <rect x="-80" y="98" width="40" height="8" fill="#0000ff" opacity="0.7"/>
+    <rect x="-40" y="98" width="40" height="8" fill="#4b0082" opacity="0.7"/>
+    <rect x="0" y="98" width="40" height="8" fill="#9400d3" opacity="0.7"/>
+    <rect x="40" y="98" width="40" height="8" fill="#ff0000" opacity="0.7"/>
   </g>
   
-  <!-- Spaceship (pixel style) -->
+  <!-- Spaceship pixel art -->
   <g class="ship">
-    <g transform="translate(280,95)">
-      <!-- Engine flame (pixel) -->
-      <rect x="-20" y="8" width="8" height="16" fill="#feca57"/>
-      <rect x="-16" y="12" width="8" height="8" fill="#ff6b6b"/>
+    <g transform="translate(280,90)">
+      <!-- Engine flame -->
+      <rect x="-16" y="12" width="8" height="12" fill="#feca57"/>
+      <rect x="-12" y="14" width="8" height="6" fill="#ff6b6b"/>
       <!-- Hull -->
-      <rect x="0" y="0" width="48" height="32" fill="#ff6b6b"/>
-      <rect x="4" y="4" width="40" height="24" fill="#feca57"/>
+      <rect x="0" y="0" width="40" height="30" fill="#ff6b6b"/>
+      <rect x="4" y="4" width="32" height="22" fill="#feca57"/>
       <!-- Cockpit -->
-      <rect x="16" y="8" width="16" height="12" fill="#00f2fe"/>
-      <rect x="20" y="12" width="8" height="4" fill="white"/>
+      <rect x="14" y="8" width="12" height="10" fill="#00f2fe"/>
+      <rect x="18" y="12" width="4" height="4" fill="white"/>
       <!-- Wings -->
-      <rect x="-8" y="12" width="16" height="8" fill="#55efc4"/>
-      <rect x="40" y="12" width="16" height="8" fill="#55efc4"/>
+      <rect x="-6" y="10" width="14" height="6" fill="#55efc4"/>
+      <rect x="32" y="10" width="14" height="6" fill="#55efc4"/>
       <!-- Thrusters -->
-      <rect x="4" y="28" width="8" height="8" fill="#ff9ff3"/>
-      <rect x="36" y="28" width="8" height="8" fill="#ff9ff3"/>
+      <rect x="2" y="26" width="6" height="6" fill="#ff9ff3"/>
+      <rect x="32" y="26" width="6" height="6" fill="#ff9ff3"/>
     </g>
   </g>
   
   <!-- Text -->
-  <text x="500" y="200" font-family="monospace" font-size="16" font-weight="bold" fill="#00f2fe" text-anchor="middle">
+  <text x="500" y="190" font-family="monospace" font-size="16" font-weight="bold" fill="#00f2fe" text-anchor="middle">
     🚀 Infrastructure &amp; Automation &amp; Robotics
   </text>
 </svg>
