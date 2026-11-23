@@ -1,10 +1,75 @@
-- 👋 Hi, I’m @septimusgorne DevOps at Kaspersky_Lab
-- 👀 I’m interested in CCNA(P), Linux/Windows administration, DevOps, Python, C#, ASP.NET, MVC, Docker, Unity, SQL, Ansible e.t.c
-- 🌱 I’m currently learning AI, Machine Learning(ML & DL), Python, C#, Unity, SQL
-- 💞️ I will participate in OpenSource projects
-- 📫 How to reach me thebestlakshmi@gmail.com
+# 👋 Привет, я Артур (@septimusgorne)
 
-<!---
-septimusgorne/septimusgorne is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Инженер по автоматизации, исследователь в биоинженерии и энтузиаст робототехники. Строю системы, которые объединяют физический мир, программное обеспечение и биологию.
+
+---
+
+## 🧪 Чем я занимаюсь
+
+### 🔬 Биоинженерия и моделирование сетчатки глаза
+Разработка вычислительной инфраструктуры для симуляции биологической сетчатки человека: математический аппарат (поток Риччи, дифференциальная геометрия, TDA), клеточные симуляторы (фоторецепторы, биполярные и ганглиозные клетки), биомеханика тканей, сосудистая сеть, электрофизиология (ЭРГ), OCT-сканирование и персонализированная регенеративная офтальмология.
+
+### 🕷️ Робототехника: робот-паук (Hexapod)
+Создание шестиногого Walking Robota: прошивка Arduino Mega, мост связи ESP32 → Mega, тесты датчиков MPU6050, автономное движение и интеграция с управляющими системами.
+
+### 🏠 Умный дом и инфраструктура
+Home Assistant, автоматизация помещений, интеграция устройств, серверное администрирование, Docker-оркестрация, бэкапы и мониторинг инфраструктуры.
+
+### 💻 Инженерная разработка
+Python, C++, Arduino/PlatformIO, Linux-администрирование, скрипты оркестрации, CI/CD, работа с датчиками и встраиваемыми системами.
+
+---
+
+## 📂 Мои проекты
+
+| Проект | Описание | Стек |
+|--------|----------|------|
+| **[bioengineering-retina](https://github.com/septimusgorne/bioengineering-retina)** | Система моделирования сетчатки глаза: от математического аппарата до OCT-визуализации | Python, SciPy, NumPy, Docker |
+| **[robot-spider-hexapod](https://github.com/septimusgorne/robot-spider-hexapod)** | Робот-паук: ESP32-Mega мост, прошивка Arduino Mega, тесты MPU6050 | C++, Python, PlatformIO, ESP32, Arduino Mega |
+
+> Оба репозитория приватные — доступ только у владельца.
+
+---
+
+## 🛠 Технологический стек
+
+```
+Языки:        Python • C++ • Arduino C • Bash • YAML • TOML
+Инструменты:  Docker • PlatformIO • Git • Home Assistant • SSH • SFTP
+Домены:       Биоинженерия • Робототехника • IoT • Умный дом • Инфраструктура
+```
+
+---
+
+## 📊 Текущий фокус
+
+- 🔬 Завершение системы моделирования сетчатки глаза и подготовка к клинической валидации
+- 🕷️ Интеграция сервоприводов и автономный режим для робота-паука
+- 🏠 Расширение автоматизации умного дома и мониторинга инфраструктуры
+
+---
+
+## 📫 Связаться со мной
+
+- **Email:** thebestlakshmi@gmail.com
+- **GitHub:** [@septimusgorne](https://github.com/septimusgorne)
+
+---
+
+<details>
+<summary>📁 Инструкции для агентов</summary>
+
+Каждый проект содержит папку `.agent-instructions/` с:
+- `CURRENT_STATE.md` — текущее состояние на последнем коммите
+- `NEXT_STEPS.md` — план дальнейшей разработки
+- `AGENT_GUIDE.md` — рекомендации и соглашения для агентов
+
+</details>
+
+---
+
+> 💡 *"Строю мосты между биологией, робототехникой и программным обеспечением."*
+
+<!--
+septimusgorne/septimusgorne is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
+-->
