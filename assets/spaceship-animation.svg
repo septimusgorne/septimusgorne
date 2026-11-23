@@ -1,35 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      @keyframes fly {
+        0% { transform: translateX(-120px) translateY(0px); }
+        25% { transform: translateX(200px) translateY(-20px); }
+        50% { transform: translateX(500px) translateY(10px); }
+        75% { transform: translateX(800px) translateY(-10px); }
+        100% { transform: translateX(-120px) translateY(0px); }
+      }
+      @keyframes engine {
+        0%, 100% { opacity: 0.8; transform: scaleY(1); }
+        50% { opacity: 1; transform: scaleY(1.4); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+      }
+    </style>
     <linearGradient id="shipGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#feca57;stop-opacity:1" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
   
-  <!-- Deep space background -->
-  <rect width="1000" height="200" fill="#050510"/>
+  <!-- Space background -->
+  <rect width="1000" height="220" fill="#050510"/>
   
   <!-- Distant nebula -->
-  <circle cx="200" cy="50" r="80" fill="#4facfe" opacity="0.08"/>
-  <circle cx="800" cy="150" r="100" fill="#ff9ff3" opacity="0.06"/>
-  <circle cx="500" cy="30" r="60" fill="#00f2fe" opacity="0.05"/>
+  <circle cx="150" cy="40" r="70" fill="#4facfe" opacity="0.06"/>
+  <circle cx="850" cy="160" r="90" fill="#ff9ff3" opacity="0.05"/>
+  <circle cx="500" cy="20" r="50" fill="#00f2fe" opacity="0.04"/>
   
-  <!-- Stars -->
-  <circle cx="205" cy="43" r="2" fill="#ff9ff3" opacity="0.64"/><circle cx="567" cy="138" r="2" fill="white" opacity="0.8"/><circle cx="244" cy="144" r="1" fill="#ff9ff3" opacity="0.79"/><circle cx="212" cy="63" r="2" fill="#00f2fe" opacity="0.79"/><circle cx="921" cy="14" r="1" fill="white" opacity="0.93"/><circle cx="966" cy="40" r="1" fill="#ff9ff3" opacity="0.74"/><circle cx="621" cy="6" r="1" fill="white" opacity="0.82"/><circle cx="741" cy="35" r="1" fill="#00f2fe" opacity="0.56"/><circle cx="766" cy="4" r="2" fill="#ff9ff3" opacity="0.71"/><circle cx="742" cy="94" r="1" fill="white" opacity="0.59"/><circle cx="410" cy="151" r="2" fill="#ff9ff3" opacity="0.58"/><circle cx="292" cy="67" r="3" fill="#00f2fe" opacity="0.88"/><circle cx="773" cy="27" r="2" fill="#00f2fe" opacity="0.72"/><circle cx="55" cy="148" r="3" fill="#ff9ff3" opacity="0.77"/><circle cx="323" cy="5" r="1" fill="#ff9ff3" opacity="0.71"/><circle cx="544" cy="6" r="1" fill="white" opacity="0.86"/><circle cx="186" cy="1" r="1" fill="#00f2fe" opacity="0.44"/><circle cx="596" cy="96" r="1" fill="#feca57" opacity="0.53"/><circle cx="179" cy="54" r="2" fill="#00f2fe" opacity="0.65"/><circle cx="187" cy="135" r="1" fill="#00f2fe" opacity="0.69"/><circle cx="706" cy="160" r="1" fill="#feca57" opacity="0.62"/><circle cx="453" cy="84" r="2" fill="#ff9ff3" opacity="0.87"/><circle cx="817" cy="132" r="2" fill="#feca57" opacity="0.83"/><circle cx="670" cy="48" r="2" fill="#feca57" opacity="0.82"/><circle cx="616" cy="28" r="3" fill="#ff9ff3" opacity="0.53"/><circle cx="42" cy="116" r="1" fill="#feca57" opacity="0.54"/><circle cx="138" cy="40" r="2" fill="#ff9ff3" opacity="0.72"/><circle cx="871" cy="139" r="3" fill="white" opacity="0.67"/><circle cx="590" cy="111" r="3" fill="#feca57" opacity="0.53"/><circle cx="224" cy="93" r="1" fill="white" opacity="0.61"/><circle cx="426" cy="152" r="2" fill="white" opacity="0.64"/><circle cx="45" cy="23" r="3" fill="#ff9ff3" opacity="0.85"/><circle cx="557" cy="90" r="1" fill="#feca57" opacity="0.8"/><circle cx="881" cy="104" r="2" fill="white" opacity="0.74"/><circle cx="615" cy="20" r="2" fill="#ff9ff3" opacity="0.47"/><circle cx="770" cy="109" r="2" fill="#00f2fe" opacity="1.0"/><circle cx="891" cy="132" r="2" fill="#00f2fe" opacity="0.69"/><circle cx="920" cy="81" r="2" fill="#feca57" opacity="0.43"/><circle cx="119" cy="129" r="1" fill="white" opacity="0.86"/><circle cx="703" cy="147" r="1" fill="#ff9ff3" opacity="0.54"/><circle cx="299" cy="82" r="1" fill="#00f2fe" opacity="0.67"/><circle cx="550" cy="129" r="1" fill="white" opacity="0.59"/><circle cx="939" cy="102" r="3" fill="white" opacity="0.64"/><circle cx="380" cy="22" r="2" fill="#feca57" opacity="0.72"/><circle cx="93" cy="15" r="1" fill="#ff9ff3" opacity="0.64"/><circle cx="682" cy="92" r="2" fill="#ff9ff3" opacity="0.83"/><circle cx="333" cy="7" r="1" fill="#ff9ff3" opacity="0.47"/><circle cx="231" cy="40" r="1" fill="#00f2fe" opacity="0.52"/><circle cx="26" cy="62" r="2" fill="#feca57" opacity="0.99"/><circle cx="306" cy="141" r="2" fill="#ff9ff3" opacity="0.91"/><circle cx="488" cy="60" r="3" fill="#ff9ff3" opacity="0.79"/><circle cx="343" cy="127" r="3" fill="#00f2fe" opacity="0.44"/><circle cx="736" cy="68" r="1" fill="#feca57" opacity="0.76"/><circle cx="989" cy="155" r="1" fill="white" opacity="0.97"/><circle cx="527" cy="61" r="2" fill="#feca57" opacity="0.62"/><circle cx="314" cy="42" r="1" fill="#00f2fe" opacity="0.52"/><circle cx="164" cy="124" r="1" fill="#feca57" opacity="0.81"/><circle cx="926" cy="64" r="1" fill="#feca57" opacity="0.72"/><circle cx="490" cy="17" r="1" fill="#ff9ff3" opacity="0.57"/><circle cx="478" cy="103" r="2" fill="#feca57" opacity="0.56"/>
+  <!-- Twinkling stars -->
+  <circle cx="60" cy="30" r="1.5" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="140" cy="90" r="1" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="220" cy="50" r="2" fill="white" opacity="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="320" cy="130" r="1.5" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="70" r="1" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="520" cy="160" r="2" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="50" r="1.5" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="720" cy="110" r="1" fill="white" opacity="0.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="820" cy="170" r="2" fill="white" opacity="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="920" cy="60" r="1.5" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="960" cy="130" r="1" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="170" r="1" fill="#00f2fe" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="360" cy="90" r="1.5" fill="#00f2fe" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="460" cy="150" r="1" fill="#00f2fe" opacity="0.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="40" r="2" fill="#00f2fe" opacity="0.8"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
   
-  <!-- Spaceship -->
-  <g transform="translate(202, 111)" filter="url(#glow)">
+  <!-- Planet -->
+  <circle cx="860" cy="70" r="35" fill="#ff9ff3" opacity="0.95">
+    <animate attributeName="r" values="35;38;35" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="855" cy="65" r="6" fill="white" opacity="0.4"/>
+  <circle cx="865" cy="75" r="4" fill="white" opacity="0.3"/>
+  
+  <!-- Moon -->
+  <circle cx="930" cy="50" r="12" fill="#dfe6e9" opacity="0.95"/>
+  <circle cx="933" cy="47" r="2.5" fill="#b2bec3" opacity="0.6"/>
+  
+  <!-- Spaceship with animation -->
+  <g transform="translate(0,100)">
+    <animateTransform attributeName="transform" type="translate" 
+      values="0,0; 250,-15; 500,5; 750,-10; 0,0" dur="12s" repeatCount="indefinite"/>
+    
     <!-- Engine flame -->
-    <path d="M-30,45 Q-10,58 10,45 Q-10,35 -30,45" fill="#feca57" opacity="0.7"/>
-    <path d="M-25,45 Q-5,53 5,45 Q-5,40 -25,45" fill="#ff6b6b" opacity="0.5"/>
+    <path d="M-30,45 Q-10,55 10,45 Q-10,35 -30,45" fill="#feca57" opacity="0.7">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="0.15s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M-30,45 Q-10,55 10,45 Q-10,35 -30,45; M-28,45 Q-10,60 12,45 Q-10,33 -28,45; M-30,45 Q-10,55 10,45 Q-10,35 -30,45" dur="0.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-25,45 Q-5,50 5,45 Q-5,40 -25,45" fill="#ff6b6b" opacity="0.5">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="0.2s" repeatCount="indefinite"/>
+    </path>
     
     <!-- Ship hull -->
     <path d="M0,0 L45,0 L45,55 L0,55 Z" fill="url(#shipGrad)"/>
@@ -41,19 +88,19 @@
     <path d="M45,30 L70,30 L70,40 L45,40 Z" fill="#55efc4" opacity="0.9"/>
     
     <!-- Cockpit -->
-    <circle cx="22" cy="28" r="9" fill="#00f2fe" opacity="0.95"/>
+    <circle cx="22" cy="28" r="8" fill="#00f2fe" opacity="0.95"/>
     <circle cx="22" cy="28" r="3.5" fill="white" opacity="0.9"/>
     
-    <!-- Engine thrusters -->
+    <!-- Thrusters -->
     <rect x="-15" y="35" width="6" height="12" fill="#ff9ff3" opacity="0.8"/>
     <rect x="34" y="35" width="6" height="12" fill="#ff9ff3" opacity="0.8"/>
   </g>
   
   <!-- Text -->
-  <text x="500" y="175" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="1">
+  <text x="500" y="195" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="1">
     🚀 Infrastructure &amp; Automation &amp; Robotics
   </text>
-  <text x="500" y="195" font-family="'Courier New', monospace" font-size="12" fill="#a29bfe" text-anchor="middle">
-    Generated on 23.11.2026 • @septimusgorne
+  <text x="500" y="215" font-family="'Courier New', monospace" font-size="11" fill="#a29bfe" text-anchor="middle">
+    Generated by @septimusgorne • DevOps at Kaspersky Lab
   </text>
 </svg>
