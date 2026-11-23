@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
 </p>
 
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
-  <b>Middle DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow)<br>
+  <b>DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow)<br>
   KasperskyOS infrastructure · CI/CD · Observability · Automation
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-dynamic.svg" alt="🚀 Spaceship Animation" width="100%" />
+  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-animation.svg" alt="🚀 Spaceship Animation" width="100%" />
 </p>
 
 ---

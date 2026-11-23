@@ -1,62 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      @keyframes fly {
-        0% { transform: translateX(-120px) translateY(0px); }
-        25% { transform: translateX(200px) translateY(-20px); }
-        50% { transform: translateX(500px) translateY(10px); }
-        75% { transform: translateX(800px) translateY(-10px); }
-        100% { transform: translateX(-120px) translateY(0px); }
-      }
-      @keyframes engine {
-        0%, 100% { opacity: 0.8; transform: scaleY(1); }
-        50% { opacity: 1; transform: scaleY(1.4); }
-      }
-      @keyframes twinkle {
-        0%, 100% { opacity: 0.4; }
-        50% { opacity: 1; }
-      }
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-15px); }
-      }
-    </style>
     <linearGradient id="shipGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#feca57;stop-opacity:1" />
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   
   <!-- Space background -->
   <rect width="1000" height="220" fill="#050510"/>
   
-  <!-- Distant nebula -->
+  <!-- Nebula -->
   <circle cx="150" cy="40" r="70" fill="#4facfe" opacity="0.06"/>
   <circle cx="850" cy="160" r="90" fill="#ff9ff3" opacity="0.05"/>
   <circle cx="500" cy="20" r="50" fill="#00f2fe" opacity="0.04"/>
   
-  <!-- Twinkling stars -->
-  <circle cx="60" cy="30" r="1.5" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="140" cy="90" r="1" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
-  <circle cx="220" cy="50" r="2" fill="white" opacity="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></circle>
-  <circle cx="320" cy="130" r="1.5" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
-  <circle cx="420" cy="70" r="1" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
-  <circle cx="520" cy="160" r="2" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="620" cy="50" r="1.5" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
-  <circle cx="720" cy="110" r="1" fill="white" opacity="0.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
-  <circle cx="820" cy="170" r="2" fill="white" opacity="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.8s" repeatCount="indefinite"/></circle>
-  <circle cx="920" cy="60" r="1.5" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
-  <circle cx="960" cy="130" r="1" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="180" cy="170" r="1" fill="#00f2fe" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
-  <circle cx="360" cy="90" r="1.5" fill="#00f2fe" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
-  <circle cx="460" cy="150" r="1" fill="#00f2fe" opacity="0.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></circle>
-  <circle cx="760" cy="40" r="2" fill="#00f2fe" opacity="0.8"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+  <!-- Stars (静态) -->
+  <circle cx="60" cy="30" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="140" cy="90" r="1" fill="white" opacity="0.6"/>
+  <circle cx="220" cy="50" r="2" fill="white" opacity="0.9"/>
+  <circle cx="320" cy="130" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="420" cy="70" r="1" fill="white" opacity="0.5"/>
+  <circle cx="520" cy="160" r="2" fill="white" opacity="0.8"/>
+  <circle cx="620" cy="50" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="720" cy="110" r="1" fill="white" opacity="0.4"/>
+  <circle cx="820" cy="170" r="2" fill="white" opacity="0.9"/>
+  <circle cx="920" cy="60" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="960" cy="130" r="1" fill="white" opacity="0.5"/>
+  <circle cx="180" cy="170" r="1" fill="#00f2fe" opacity="0.6"/>
+  <circle cx="360" cy="90" r="1.5" fill="#00f2fe" opacity="0.6"/>
+  <circle cx="460" cy="150" r="1" fill="#00f2fe" opacity="0.4"/>
+  <circle cx="760" cy="40" r="2" fill="#00f2fe" opacity="0.8"/>
   
   <!-- Planet -->
-  <circle cx="860" cy="70" r="35" fill="#ff9ff3" opacity="0.95">
-    <animate attributeName="r" values="35;38;35" dur="5s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="860" cy="70" r="35" fill="#ff9ff3" opacity="0.95"/>
   <circle cx="855" cy="65" r="6" fill="white" opacity="0.4"/>
   <circle cx="865" cy="75" r="4" fill="white" opacity="0.3"/>
   
@@ -64,19 +48,11 @@
   <circle cx="930" cy="50" r="12" fill="#dfe6e9" opacity="0.95"/>
   <circle cx="933" cy="47" r="2.5" fill="#b2bec3" opacity="0.6"/>
   
-  <!-- Spaceship with animation -->
-  <g transform="translate(0,100)">
-    <animateTransform attributeName="transform" type="translate" 
-      values="0,0; 250,-15; 500,5; 750,-10; 0,0" dur="12s" repeatCount="indefinite"/>
-    
+  <!-- Spaceship -->
+  <g filter="url(#glow)">
     <!-- Engine flame -->
-    <path d="M-30,45 Q-10,55 10,45 Q-10,35 -30,45" fill="#feca57" opacity="0.7">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="0.15s" repeatCount="indefinite"/>
-      <animate attributeName="d" values="M-30,45 Q-10,55 10,45 Q-10,35 -30,45; M-28,45 Q-10,60 12,45 Q-10,33 -28,45; M-30,45 Q-10,55 10,45 Q-10,35 -30,45" dur="0.3s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-25,45 Q-5,50 5,45 Q-5,40 -25,45" fill="#ff6b6b" opacity="0.5">
-      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="0.2s" repeatCount="indefinite"/>
-    </path>
+    <path d="M-30,45 Q-10,55 10,45 Q-10,35 -30,45" fill="#feca57" opacity="0.7"/>
+    <path d="M-25,45 Q-5,50 5,45 Q-5,40 -25,45" fill="#ff6b6b" opacity="0.5"/>
     
     <!-- Ship hull -->
     <path d="M0,0 L45,0 L45,55 L0,55 Z" fill="url(#shipGrad)"/>
