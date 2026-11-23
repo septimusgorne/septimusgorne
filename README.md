@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=4000&pause=1000&color=00A8FF&center=true&v=true&width=600&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=5000&pause=1000&color=00A8FF&center=true&v=true&width=620&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
 </p>
 
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
-  <b>Middle DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow) · ~3.5 years on KasperskyOS infrastructure & pipelines<br>
+  <b>Middle DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow) · ~3.5 years on <b>KasperskyOS</b> infrastructure & pipelines<br>
   Ex-network engineer · Ex-3rd line support @ Ozon · Ex-factory automation engineer (CNC → automation)
 </p>
 
@@ -14,7 +14,7 @@
 
 I build reliable, observable infrastructure and automate complex systems. My background spans from **special communications troops** in the army and warehouse/logistics work, through **CNC machine operation and factory automation engineering**, to **network engineering** and now **DevOps** at Kaspersky Lab.
 
-I work on **KasperskyOS** — a secure operating system written from scratch (not a Linux fork) — handling infrastructure, CI/CD pipelines, observability, and SAML authentication. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
+I work on **KasperskyOS** — a secure operating system written from scratch (not a Linux fork) — handling infrastructure, CI/CD pipelines, observability, and authentication. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
 
 ---
 
@@ -27,11 +27,10 @@ I work on **KasperskyOS** — a secure operating system written from scratch (no
 | Area | Technologies |
 |------|--------------|
 | **Languages & Scripting** | Bash, Python (DevOps/infrastructure focus), C# (Unity), SQL |
-| **Containers & Orchestration** | Docker, Kubernetes (clusters, Ingress, etcd) |
+| **Containers & Orchestration** | Docker, Kubernetes (clusters, Ingress-контроллеры, etcd) |
 | **CI/CD & Testing** | Pipeline design, test stage splitting, result-to-code matching |
 | **Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK stack, GlitchTip |
 | **Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling, proxying |
-| **Auth & Security** | SAML authentication |
 | **Hardware & Embedded** | Arduino Mega, ESP32, MPU-6050, Flipper Zero, Orange Pi, Rock Pi |
 
 ---
@@ -45,6 +44,15 @@ I work on **KasperskyOS** — a secure operating system written from scratch (no
 | **Hexapod Robot** | 18-servo walking hexapod on Arduino Mega 2560 with ESP32, MPU-6050 gyro, Sensor Shield 4.0; diagnostics via ZOYI ZT-703S; Flipper Zero (Xtreme) | Arduino, C++, Python, ESP32 |
 | **Bioengineering: Retina Modeling** | Tissue/organ modeling starting with the retina; differential geometry, Ricci flow, Gaussian smoothing, topological surgery | Python, SciPy, NumPy, Math |
 | **3D Printing & CAD** | Bambu Lab H2S (AMS 2 Pro, AMS HT), Bambu Studio, Meshmixer, Meshy AI; PLA/PETG; kinetic sand clocks with ferromagnetic fluid | CAD, 3D printing |
+
+---
+
+## 🔐 Auth & Security
+
+- **SAML** — единый вход для внутренних приложений и CodeJump (KasperskyOS инфраструктура)
+- **OAuth 2.0 / OIDC** — социальная и корпоративная авторизация (Google, GitHub)
+- **Ingress & Reverse-proxy auth** — аутентификация на входе в сервисы через Ingress-контроллер и обратный прокси
+- **WireGuard** — защищённый туннельный доступ к удалённым сегментам сети
 
 ---
 
