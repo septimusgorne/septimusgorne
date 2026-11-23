@@ -5,7 +5,7 @@
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
   <b>DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow)<br>
-  KasperskyOS infrastructure · CI/CD · Observability · Automation
+  <b>Infrastructure</b> · <b>CI/CD</b> · <b>Observability</b> · <b>Automation</b>
 </p>
 
 ---
@@ -20,7 +20,7 @@
 
 I build reliable, observable infrastructure and automate complex systems. My background spans from **special communications troops** in the army and **CNC machine operation** in factory automation, to **network engineering** and now **DevOps** at Kaspersky Lab.
 
-I work on **KasperskyOS** — a secure operating system written from scratch — handling infrastructure, CI/CD pipelines, observability, and authentication. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
+I work on **secure infrastructure** — building, automating, and monitoring systems. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
 
 ---
 
@@ -32,12 +32,12 @@ I work on **KasperskyOS** — a secure operating system written from scratch —
 
 | Area | Technologies |
 |------|--------------|
-| **Languages & Scripting** | Bash, Python, C# (Unity), SQL |
-| **Containers & Orchestration** | Docker, Kubernetes, etcd |
-| **CI/CD & Testing** | Pipeline design, test automation |
-| **Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip |
-| **Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling |
-| **Hardware & Embedded** | Arduino Mega, ESP32, MPU-6050, Flipper Zero, Orange Pi, Rock Pi |
+| **💻 Languages & Scripting** | Bash, Python, C# (Unity), SQL |
+| **📦 Containers & Orchestration** | Docker, Kubernetes, etcd |
+| **🔄 CI/CD & Testing** | Pipeline design, test automation |
+| **📊 Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip |
+| **🌐 Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling |
+| **🔧 Hardware & Embedded** | Arduino Mega, ESP32, MPU-6050, Flipper Zero, Orange Pi, Rock Pi |
 
 ---
 
@@ -57,7 +57,7 @@ I work on **KasperskyOS** — a secure operating system written from scratch —
 
 ## 🔐 Auth & Security
 
-- **SAML** — SSO for internal applications (KasperskyOS)
+- **SAML** — single sign-on for internal applications
 - **OAuth 2.0 / OIDC** — social & corporate auth (Google, GitHub)
 - **Ingress & Reverse-proxy auth** — service entry authentication
 - **WireGuard** — secure tunnel access to network segments
