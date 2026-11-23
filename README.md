@@ -11,7 +11,11 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-banner.svg" alt="Spaceship banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-animation.svg" alt="🚀 Spaceship Animation" width="100%" />
+</p>
+
+<p align="center">
+  <em>🚀 Космический корабль обновляется автоматически каждые 6 часов через GitHub Actions</em>
 </p>
 
 ---
