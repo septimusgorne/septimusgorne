@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
 </p>
 
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
@@ -125,7 +125,7 @@ GitHub: [@septimusgorne](https://github.com/septimusgorne)
 <details>
 <summary>🔍 Full background (expand)</summary>
 
-- **Middle DevOps Engineer** — Kaspersky Lab, Moscow (~3.5 years): KasperskyOS infrastructure, CI/CD pipelines, observability, SAML auth
+- **DevOps Engineer** — Kaspersky Lab, Moscow (~3.5 years): KasperskyOS infrastructure, CI/CD pipelines, observability, SAML auth
 - **Network engineer** (~9 months): MikroTik RouterOS, VLAN, BGP/BFD/iBGP, tunneling, proxying
 - **3rd line support** — Ozon
 - **Factory automation** — CNC operator → automation engineer
