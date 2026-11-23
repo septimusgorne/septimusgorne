@@ -1,11 +1,17 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=5000&pause=1000&color=00A8FF&center=true&v=true&width=620&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+Middle+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
 </p>
 
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
   <b>Middle DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow) · ~3.5 years on <b>KasperskyOS</b> infrastructure & pipelines<br>
   Ex-network engineer · Ex-3rd line support @ Ozon · Ex-factory automation engineer (CNC → automation)
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/septimusgorne/septimusgorne/main/assets/spaceship-banner.svg" alt="Spaceship banner" width="100%" />
 </p>
 
 ---
@@ -20,18 +26,32 @@ I work on **KasperskyOS** — a secure operating system written from scratch (no
 
 ## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,python,bash,cs,unity,dotnet,mysql,postgres,ansible,grafana,loki,influxdb,elasticsearch,nginx,mikrotik,git,ssh,arduino,esp32,raspberrypi" />
-</p>
-
-| Area | Technologies |
-|------|--------------|
-| **Languages & Scripting** | Bash, Python (DevOps/infrastructure focus), C# (Unity), SQL |
-| **Containers & Orchestration** | Docker, Kubernetes (clusters, Ingress-контроллеры, etcd) |
-| **CI/CD & Testing** | Pipeline design, test stage splitting, result-to-code matching |
-| **Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK stack, GlitchTip |
-| **Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling, proxying |
-| **Hardware & Embedded** | Arduino Mega, ESP32, MPU-6050, Flipper Zero, Orange Pi, Rock Pi |
+<table>
+  <tr>
+    <td><b>💻 Languages</td>
+    <td>Bash · Python · C# (Unity) · SQL</td>
+  </tr>
+  <tr>
+    <td><b>📦 Containers & K8s</td>
+    <td>Docker · Kubernetes · etcd · Helm</td>
+  </tr>
+  <tr>
+    <td><b>🔄 CI/CD</td>
+    <td>Pipeline design · Test stage splitting · Result-to-code matching</td>
+  </tr>
+  <tr>
+    <td><b>📊 Observability</td>
+    <td>Grafana · Loki · InfluxDB · OpenSearch · ELK · GlitchTip</td>
+  </tr>
+  <tr>
+    <td><b>🌐 Networking</td>
+    <td>MikroTik RouterOS · VLAN · BGP · BFD · iBGP · Tunneling · Proxying</td>
+  </tr>
+  <tr>
+    <td><b>🔧 Hardware</td>
+    <td>Arduino Mega · ESP32 · MPU-6050 · Flipper Zero · Orange Pi · Rock Pi</td>
+  </tr>
+</table>
 
 ---
 
@@ -68,7 +88,7 @@ Open Source collaboration · DevOps / Platform / SRE discussions · Infrastructu
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=septimusgorne&show_icons=true&theme=tokyonight&hide_rank=false" alt="GitHub stats" />
@@ -81,6 +101,12 @@ Open Source collaboration · DevOps / Platform / SRE discussions · Infrastructu
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=septimusgorne&theme=tokyonight&border_radius=6px&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/septimusgorne/septimusgorne">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=septimusgorne&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+  </a>
 </p>
 
 ---
