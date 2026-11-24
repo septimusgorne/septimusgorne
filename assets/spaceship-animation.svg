@@ -1,80 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes shipFly {
-      0%   { transform: translateX(-150px); }
-      100% { transform: translateX(1000px); }
-    }
-    @keyframes rainbowShift {
-      0%   { transform: translateX(-200px); }
-      100% { transform: translateX(750px); }
-    }
-    .ship { animation: shipFly 10s linear infinite; }
-    .rainbow { animation: rainbowShift 10s linear infinite; }
-  </style>
+<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shipGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#feca57;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
   
-  <!-- Space background -->
-  <rect width="1000" height="220" fill="#050510"/>
+  <!-- Deep space background -->
+  <rect width="1000" height="200" fill="#050510"/>
+  
+  <!-- Distant nebula -->
+  <circle cx="200" cy="50" r="80" fill="#4facfe" opacity="0.08"/>
+  <circle cx="800" cy="150" r="100" fill="#ff9ff3" opacity="0.06"/>
+  <circle cx="500" cy="30" r="60" fill="#00f2fe" opacity="0.05"/>
   
   <!-- Stars -->
-  <circle cx="60" cy="30" r="2" fill="white" opacity="0.9"/>
-  <circle cx="140" cy="90" r="1" fill="white" opacity="0.6"/>
-  <circle cx="220" cy="50" r="2" fill="white" opacity="0.9"/>
-  <circle cx="320" cy="130" r="1" fill="white" opacity="0.7"/>
-  <circle cx="420" cy="70" r="1" fill="white" opacity="0.5"/>
-  <circle cx="520" cy="150" r="2" fill="white" opacity="0.8"/>
-  <circle cx="620" cy="50" r="1.5" fill="white" opacity="0.6"/>
-  <circle cx="720" cy="110" r="1" fill="white" opacity="0.4"/>
-  <circle cx="820" cy="170" r="2" fill="white" opacity="0.9"/>
-  <circle cx="920" cy="60" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="636" cy="19" r="1" fill="white" opacity="0.53"/><circle cx="839" cy="139" r="1" fill="#ff9ff3" opacity="0.96"/><circle cx="124" cy="126" r="1" fill="#feca57" opacity="0.93"/><circle cx="329" cy="55" r="1" fill="white" opacity="0.53"/><circle cx="83" cy="58" r="1" fill="white" opacity="0.98"/><circle cx="8" cy="123" r="1" fill="#feca57" opacity="0.61"/><circle cx="745" cy="160" r="3" fill="#feca57" opacity="0.7"/><circle cx="848" cy="157" r="2" fill="white" opacity="0.74"/><circle cx="891" cy="35" r="1" fill="#ff9ff3" opacity="0.96"/><circle cx="845" cy="80" r="1" fill="#00f2fe" opacity="0.67"/><circle cx="110" cy="44" r="2" fill="#00f2fe" opacity="0.84"/><circle cx="753" cy="128" r="1" fill="#00f2fe" opacity="0.89"/><circle cx="348" cy="147" r="2" fill="#ff9ff3" opacity="0.77"/><circle cx="394" cy="157" r="2" fill="white" opacity="0.75"/><circle cx="599" cy="153" r="2" fill="#00f2fe" opacity="0.57"/><circle cx="98" cy="18" r="1" fill="#ff9ff3" opacity="0.65"/><circle cx="896" cy="33" r="1" fill="white" opacity="0.77"/><circle cx="37" cy="33" r="2" fill="#00f2fe" opacity="0.6"/><circle cx="441" cy="13" r="1" fill="white" opacity="0.72"/><circle cx="419" cy="111" r="1" fill="#ff9ff3" opacity="0.68"/><circle cx="986" cy="36" r="1" fill="#ff9ff3" opacity="0.43"/><circle cx="920" cy="58" r="2" fill="#ff9ff3" opacity="0.94"/><circle cx="908" cy="84" r="3" fill="#ff9ff3" opacity="0.53"/><circle cx="883" cy="103" r="2" fill="#ff9ff3" opacity="0.57"/><circle cx="488" cy="64" r="1" fill="#ff9ff3" opacity="0.92"/><circle cx="292" cy="150" r="1" fill="white" opacity="0.83"/><circle cx="274" cy="121" r="3" fill="#00f2fe" opacity="0.81"/><circle cx="708" cy="16" r="1" fill="#00f2fe" opacity="0.56"/><circle cx="843" cy="83" r="2" fill="#feca57" opacity="0.47"/><circle cx="396" cy="108" r="1" fill="white" opacity="0.87"/><circle cx="956" cy="7" r="3" fill="#ff9ff3" opacity="0.81"/><circle cx="161" cy="145" r="1" fill="white" opacity="0.65"/><circle cx="271" cy="5" r="1" fill="#ff9ff3" opacity="0.55"/><circle cx="681" cy="159" r="1" fill="#feca57" opacity="0.73"/><circle cx="32" cy="59" r="3" fill="white" opacity="0.63"/><circle cx="324" cy="121" r="1" fill="white" opacity="0.57"/><circle cx="742" cy="38" r="1" fill="#feca57" opacity="0.95"/><circle cx="23" cy="72" r="3" fill="#ff9ff3" opacity="0.96"/><circle cx="410" cy="154" r="2" fill="#00f2fe" opacity="0.71"/><circle cx="261" cy="43" r="1" fill="#feca57" opacity="0.79"/><circle cx="978" cy="2" r="1" fill="#ff9ff3" opacity="0.68"/><circle cx="967" cy="152" r="1" fill="white" opacity="0.55"/><circle cx="542" cy="100" r="3" fill="#ff9ff3" opacity="0.51"/><circle cx="158" cy="127" r="1" fill="#00f2fe" opacity="0.62"/><circle cx="180" cy="125" r="1" fill="#feca57" opacity="0.77"/><circle cx="140" cy="41" r="3" fill="#00f2fe" opacity="0.65"/><circle cx="969" cy="39" r="1" fill="#ff9ff3" opacity="0.42"/><circle cx="889" cy="16" r="1" fill="white" opacity="0.69"/><circle cx="850" cy="56" r="3" fill="#ff9ff3" opacity="0.78"/><circle cx="325" cy="23" r="2" fill="#00f2fe" opacity="0.91"/><circle cx="777" cy="65" r="2" fill="#ff9ff3" opacity="0.5"/><circle cx="596" cy="30" r="1" fill="white" opacity="0.61"/><circle cx="813" cy="69" r="3" fill="#feca57" opacity="0.94"/><circle cx="312" cy="138" r="2" fill="white" opacity="0.95"/><circle cx="578" cy="60" r="1" fill="#ff9ff3" opacity="0.83"/><circle cx="607" cy="47" r="1" fill="#feca57" opacity="0.84"/><circle cx="903" cy="36" r="3" fill="#ff9ff3" opacity="0.83"/><circle cx="896" cy="153" r="1" fill="#feca57" opacity="0.67"/><circle cx="318" cy="97" r="1" fill="#feca57" opacity="0.76"/><circle cx="267" cy="157" r="2" fill="#00f2fe" opacity="0.91"/>
   
-  <!-- Planet -->
-  <circle cx="880" cy="60" r="30" fill="#ff9ff3" opacity="0.9"/>
-  
-  <!-- Moon -->
-  <circle cx="940" cy="50" r="12" fill="#dfe6e9" opacity="0.9"/>
-  
-  <!-- Rainbow trail -->
-  <g class="rainbow">
-    <rect x="-200" y="90" width="40" height="8" fill="#ff0000" opacity="0.9"/>
-    <rect x="-160" y="90" width="40" height="8" fill="#ff7f00" opacity="0.9"/>
-    <rect x="-120" y="90" width="40" height="8" fill="#ffff00" opacity="0.9"/>
-    <rect x="-80" y="90" width="40" height="8" fill="#00ff00" opacity="0.9"/>
-    <rect x="-40" y="90" width="40" height="8" fill="#0000ff" opacity="0.9"/>
-    <rect x="0" y="90" width="40" height="8" fill="#4b0082" opacity="0.9"/>
-    <rect x="40" y="90" width="40" height="8" fill="#9400d3" opacity="0.9"/>
-    <rect x="-200" y="98" width="40" height="8" fill="#ff7f00" opacity="0.7"/>
-    <rect x="-160" y="98" width="40" height="8" fill="#ffff00" opacity="0.7"/>
-    <rect x="-120" y="98" width="40" height="8" fill="#00ff00" opacity="0.7"/>
-    <rect x="-80" y="98" width="40" height="8" fill="#0000ff" opacity="0.7"/>
-    <rect x="-40" y="98" width="40" height="8" fill="#4b0082" opacity="0.7"/>
-    <rect x="0" y="98" width="40" height="8" fill="#9400d3" opacity="0.7"/>
-    <rect x="40" y="98" width="40" height="8" fill="#ff0000" opacity="0.7"/>
-  </g>
-  
-  <!-- Spaceship pixel art -->
-  <g class="ship">
-    <g transform="translate(280,90)">
-      <!-- Engine flame -->
-      <rect x="-16" y="12" width="8" height="12" fill="#feca57"/>
-      <rect x="-12" y="14" width="8" height="6" fill="#ff6b6b"/>
-      <!-- Hull -->
-      <rect x="0" y="0" width="40" height="30" fill="#ff6b6b"/>
-      <rect x="4" y="4" width="32" height="22" fill="#feca57"/>
-      <!-- Cockpit -->
-      <rect x="14" y="8" width="12" height="10" fill="#00f2fe"/>
-      <rect x="18" y="12" width="4" height="4" fill="white"/>
-      <!-- Wings -->
-      <rect x="-6" y="10" width="14" height="6" fill="#55efc4"/>
-      <rect x="32" y="10" width="14" height="6" fill="#55efc4"/>
-      <!-- Thrusters -->
-      <rect x="2" y="26" width="6" height="6" fill="#ff9ff3"/>
-      <rect x="32" y="26" width="6" height="6" fill="#ff9ff3"/>
-    </g>
+  <!-- Spaceship -->
+  <g transform="translate(205, 110)" filter="url(#glow)">
+    <!-- Engine flame -->
+    <path d="M-30,45 Q-10,55 10,45 Q-10,35 -30,45" fill="#feca57" opacity="0.7"/>
+    <path d="M-25,45 Q-5,50 5,45 Q-5,40 -25,45" fill="#ff6b6b" opacity="0.5"/>
+    
+    <!-- Ship hull -->
+    <path d="M0,0 L45,0 L45,55 L0,55 Z" fill="url(#shipGrad)"/>
+    <path d="M12,12 L33,12 L33,22 L12,22 Z" fill="#2d3436"/>
+    <path d="M17,16 L28,16 L28,20 L17,20 Z" fill="#ff7675"/>
+    
+    <!-- Wings -->
+    <path d="M-25,30 L0,30 L0,40 L-25,40 Z" fill="#55efc4" opacity="0.9"/>
+    <path d="M45,30 L70,30 L70,40 L45,40 Z" fill="#55efc4" opacity="0.9"/>
+    
+    <!-- Cockpit -->
+    <circle cx="22" cy="28" r="9" fill="#00f2fe" opacity="0.95"/>
+    <circle cx="22" cy="28" r="3.5" fill="white" opacity="0.9"/>
+    
+    <!-- Engine thrusters -->
+    <rect x="-15" y="35" width="6" height="12" fill="#ff9ff3" opacity="0.8"/>
+    <rect x="34" y="35" width="6" height="12" fill="#ff9ff3" opacity="0.8"/>
   </g>
   
   <!-- Text -->
-  <text x="500" y="190" font-family="monospace" font-size="16" font-weight="bold" fill="#00f2fe" text-anchor="middle">
-    🚀 Infrastructure &amp; Automation &amp; Robotics
+  <text x="500" y="175" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="1">
+    🚀 Infrastructure & Automation & Robotics
+  </text>
+  <text x="500" y="195" font-family="'Courier New', monospace" font-size="12" fill="#a29bfe" text-anchor="middle">
+    Generated on 24.11.2026 • @septimusgorne
   </text>
 </svg>
