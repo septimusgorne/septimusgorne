@@ -18,9 +18,9 @@
 
 ## 🧭 About Me
 
-I build reliable, observable infrastructure and automate complex systems. My background spans from **special communications troops** in the army and **CNC machine operation** in factory automation, to **network engineering** and now **DevOps** at Kaspersky Lab.
+I build and automate infrastructure. Focus on **CI/CD pipelines**, **observability**, **network engineering**, and **infrastructure as code**.
 
-I work on **secure infrastructure** — building, automating, and monitoring systems. Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
+Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
 
 ---
 
