@@ -2,6 +2,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=fira+code&size=22&duration=6000&pause=1000&color=00A8FF&center=true&v=true&width=640&lines=Arthur+%40septimusgorne;+DevOps+Engineer+%40+Kaspersky+Lab;+Infrastructure+%26+Automation+%26+Robotics;+%F0%9F%9A%80+Infrastructure+%26+Automation+%26+Robotics" alt="Typing SVG" />
 </p>
 
+<p align="center">
+  <a href="README_EN.md"><img src="https://img.shields.io/badge/🇬🇧_English-gray?style=for-the-badge" alt="English" /></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/🇷🇺_Русский-blue?style=for-the-badge" alt="Русский" /></a>
+</p>
+
+
+
 <h1 align="center">👋 Hi, I’m @septimusgorne</h1>
 <p align="center">
   <b>DevOps Engineer</b> at <b>Kaspersky Lab</b> (Moscow)<br>
