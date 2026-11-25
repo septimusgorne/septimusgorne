@@ -20,7 +20,39 @@
 
 I build and automate infrastructure. Focus on **CI/CD pipelines**, **observability**, **network engineering**, and **infrastructure as code**.
 
-Outside of work, I self-host AI services, build walking robots, print 3D models, and model biological tissues.
+My background includes **factory automation and CNC machine operation** — hands-on experience with industrial automation, process optimization, and working from the machine level up to cloud infrastructure. This gives me a unique perspective on reliability, monitoring, and automation across both physical and digital systems.
+
+I also work with **3D printing and CAD** for prototyping and functional parts, and explore **AI/ML** and **bioengineering** research projects.
+
+---
+
+## 🎯 Core Competencies
+
+| Area | Skills |
+|------|--------|
+| **💻 Languages & Scripting** | Bash, Python, C# (Unity), SQL |
+| **📦 Containers & Orchestration** | Docker, Kubernetes, etcd |
+| **🔄 CI/CD & Testing** | Pipeline design, test automation, stage splitting |
+| **📊 Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip |
+| **🌐 Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling |
+| **🔐 Security & Auth** | SAML, OAuth 2.0 / OIDC, Ingress auth, WireGuard |
+| **🏭 Industrial Automation** | CNC operation, factory automation, process optimization |
+| **🖨️ 3D Printing & CAD** | Bambu Lab H2S + AMS, Bambu Studio, Meshmixer, Meshy AI, PLA/PETG |
+| **🤖 AI & ML** | Open WebUI, LiteLLM, Ollama, self-hosted LLM infrastructure |
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **CodeJump** | Code navigation service on Kubernetes with SAML auth and LLM integration | K8s, OpenGrok, SAML, Python |
+| **Self-hosted AI Infrastructure** | Open WebUI, LiteLLM, Ollama, Logging Proxy, Mosquitto MQTT, Home Assistant | Docker, AI/LLM, IoT |
+| **Bioengineering: Retina Modeling** | Tissue modeling with Ricci flow, differential geometry, OCT simulation | Python, SciPy, NumPy, Math |
+| **3D Printing & Prototyping** | Bambu Lab H2S + AMS, functional parts, kinetic art, CAD design | CAD, 3D printing, PLA/PETG |
+| **Hexapod Robot (Embedded)** | 18-servo walking robot, ESP32-Mega bridge, sensor integration | Arduino, C++, Python, ESP32 |
+
+> 🔒 The source code for these projects is in **private repositories** — access only for the owner.
 
 ---
 
@@ -29,38 +61,6 @@ Outside of work, I self-host AI services, build walking robots, print 3D models,
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,python,bash,cs,unity,dotnet,mysql,postgres,ansible,grafana,loki,influxdb,elasticsearch,nginx,mikrotik,git,ssh,arduino,esp32,raspberrypi" />
 </p>
-
-| Area | Technologies |
-|------|--------------|
-| **💻 Languages & Scripting** | Bash, Python, C# (Unity), SQL |
-| **📦 Containers & Orchestration** | Docker, Kubernetes, etcd |
-| **🔄 CI/CD & Testing** | Pipeline design, test automation |
-| **📊 Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip |
-| **🌐 Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling |
-| **🔧 Hardware & Embedded** | Arduino Mega, ESP32, MPU-6050, Flipper Zero, Orange Pi, Rock Pi |
-
----
-
-## 🚀 Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **CodeJump** | Code navigation service on Kubernetes with SAML auth and LLM integration | K8s, OpenGrok, SAML, Python |
-| **Self-hosted AI** | Open WebUI, LiteLLM, Ollama, Mosquitto MQTT, Home Assistant | Docker, AI/LLM, IoT |
-| **Hexapod Robot** | 18-servo walking robot on Arduino Mega 2560 with ESP32 bridge | Arduino, C++, Python, ESP32 |
-| **Bioengineering: Retina Modeling** | Tissue modeling with Ricci flow, differential geometry, OCT simulation | Python, SciPy, NumPy, Math |
-| **3D Printing** | Bambu Lab H2S + AMS, PLA/PETG, kinetic art | CAD, 3D printing |
-
-> 🔒 The source code for these projects is in **private repositories** — access only for the owner.
-
----
-
-## 🔐 Auth & Security
-
-- **SAML** — single sign-on for internal applications
-- **OAuth 2.0 / OIDC** — social & corporate auth (Google, GitHub)
-- **Ingress & Reverse-proxy auth** — service entry authentication
-- **WireGuard** — secure tunnel access to network segments
 
 ---
 
