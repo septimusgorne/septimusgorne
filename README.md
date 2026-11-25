@@ -39,7 +39,7 @@ I also work with **3D printing and CAD** for prototyping and functional parts, a
 | **🏭 Industrial Automation** | CNC operation, factory automation, process optimization |
 | **🖨️ 3D Printing & CAD** | Bambu Lab H2S + AMS, Bambu Studio, Meshmixer, Meshy AI, PLA/PETG |
 | **🤖 AI & ML** | Open WebUI, LiteLLM, Ollama, self-hosted LLM infrastructure |
-| **🔧 IaC & Configuration** | Ansible, Helm charts, Docker Compose, systemd |
+| **🔧 IaC & Configuration** | Ansible, Helm charts, Docker Compose, systemd, Terraform |
 
 ---
 
@@ -97,6 +97,12 @@ Open Source · DevOps / Platform / SRE · Infrastructure automation · Complex e
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=septimusgorne&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
   </a>
 </p>
+
+---
+
+## 🌍 Languages
+
+[English version](README_EN.md) · Русская версия (текущая)
 
 ---
 
