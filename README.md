@@ -31,14 +31,15 @@ I also work with **3D printing and CAD** for prototyping and functional parts, a
 | Area | Skills |
 |------|--------|
 | **💻 Languages & Scripting** | Bash, Python, C# (Unity), SQL |
-| **📦 Containers & Orchestration** | Docker, Kubernetes, etcd |
-| **🔄 CI/CD & Testing** | Pipeline design, test automation, stage splitting |
-| **📊 Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip |
-| **🌐 Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling |
-| **🔐 Security & Auth** | SAML, OAuth 2.0 / OIDC, Ingress auth, WireGuard |
+| **📦 Containers & Orchestration** | Docker, Kubernetes, etcd, Helm |
+| **🔄 CI/CD & Testing** | Pipeline design, test automation, stage splitting, GitHub Actions |
+| **📊 Observability** | Grafana, Loki, InfluxDB, OpenSearch, ELK, GlitchTip, Prometheus |
+| **🌐 Networking** | MikroTik RouterOS, VLAN, BGP, BFD, iBGP, tunneling, Nginx |
+| **🔐 Security & Auth** | SAML, OAuth 2.0 / OIDC, Ingress auth, WireGuard, mTLS |
 | **🏭 Industrial Automation** | CNC operation, factory automation, process optimization |
 | **🖨️ 3D Printing & CAD** | Bambu Lab H2S + AMS, Bambu Studio, Meshmixer, Meshy AI, PLA/PETG |
 | **🤖 AI & ML** | Open WebUI, LiteLLM, Ollama, self-hosted LLM infrastructure |
+| **🔧 IaC & Configuration** | Ansible, Helm charts, Docker Compose, systemd |
 
 ---
 
@@ -59,7 +60,7 @@ I also work with **3D printing and CAD** for prototyping and functional parts, a
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,python,bash,cs,unity,dotnet,mysql,postgres,ansible,grafana,loki,influxdb,elasticsearch,nginx,mikrotik,git,ssh,arduino,esp32,raspberrypi" />
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,python,bash,cs,unity,dotnet,mysql,postgres,ansible,grafana,loki,influxdb,elasticsearch,nginx,mikrotik,git,ssh,arduino,esp32,raspberrypi,helm,prometheus,terraform" />
 </p>
 
 ---
